@@ -79,7 +79,7 @@ def search_similar_context(input_word, model, vocabs, word2index, top_n=10):
         return filtered_words[:top_n]
 
     except KeyError:
-        return "This word is not in the vocabulary. Please try a new word."
+        return "This word is not in the vocabulary. Please try another word."
     except Exception as e:
         return f"An error occurred: {str(e)}"
 

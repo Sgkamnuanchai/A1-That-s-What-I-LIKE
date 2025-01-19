@@ -1,7 +1,7 @@
 # A1-That-s-What-I-LIKE 
 ## st124738
 ## Sonakul kamnuanchai
-## Objectives
+## Objective
 Find the top 10 most similar context using natural language processing. 
 
 ## Citation data source
@@ -26,6 +26,8 @@ Find the top 10 most similar context using natural language processing.
 
 This assignments, I will select skipgram with negative sampling because it have highest correlation scores with 0.1604 and i ignore pretrained model (Glove(Gensim)).
 
+## How to run the application:
+python app.py
 
 ## Screenshot demo web application
 ![App Screenshot](assets/a1-screenshot.jpg)
